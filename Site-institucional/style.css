@@ -9,7 +9,7 @@
 .header {
     height: 100px;
     background-color: black;
-    border: 3px solid aquamarine;
+    border: 3px solid teal;
 }
 
 .container {
@@ -51,4 +51,123 @@
 .navebar li a {
     text-decoration: none;
     color: goldenrod;
+}
+
+.banner {
+    height: 500px;
+    background-image: url(Café.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    margin-right: 250px;
+    width: 15%;
+    color: white;
+    font-size: 40px;
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.proposito {
+    height: 5000px;
+    background-color: #E5E5E5;
+}
+
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container h2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(189, 72, 72);
+}
+
+.proposito .container .mvv div h3 {
+    color: rgb(189, 72, 72);
+    font-weight: bold;
+    margin: 25px 0 ;
+}
+
+.proposito .container .mvv div img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.proposito .container .mvv {
+    margin-top: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .container .mvv div {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: teal;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.formulario {
+    background-color: #E5E5E5;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .formulario div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .formulario h2 {
+    color: rgb(189, 72, 72);
+}
+
+.banner .formulario span {
+    color: rgb(189, 72, 72);
+}
+
+.banner .formulario div input {
+    padding: 15px;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+.banner .formulario button {
+    background-color: rgb(189, 72, 72);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
